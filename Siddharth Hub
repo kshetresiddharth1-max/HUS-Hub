@@ -1,9 +1,8 @@
-# HUS-Hub
-This Script is Made by Me This Script iss So Powerfull now I want to Test Wthid Script 
 -- ============================================
 -- HUS HUB - BY SIDDHARTH
 -- Optimized for High School Life RP
 -- Key System Fixed: Siddharth1
+-- Rayfield Link Updated
 -- ============================================
 
 local Players = game:GetService("Players")
@@ -46,8 +45,8 @@ print("- Name Remote: " .. (nameRemote and nameRemote.Name or "Not Found"))
 
 -- KEY SYSTEM & UI LOADER
 local success, rayfield = pcall(function()
-    -- Load Rayfield Library from GitHub
-    return loadstring(game:HttpGet('https://raw.githubusercontent.com/SiriusSoftware/Rayfield/main/Source.lua'))()
+    -- ✅ UPDATED RAYFIELD LINK (KacperCiepluch Version)
+    return loadstring(game:HttpGet('https://raw.githubusercontent.com/KacperCiepluch/Rayfield/main/Source.lua'))()
 end)
 
 if not success then
